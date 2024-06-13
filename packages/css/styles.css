@@ -1076,7 +1076,7 @@ img {
     padding-top: 6rem;
     grid-template-columns: max-content;
     justify-content: center;
-    padding-left: 4.5rem;
+    padding-left: 5rem;
   }
 
   .services__title {
@@ -1086,7 +1086,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 602px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
