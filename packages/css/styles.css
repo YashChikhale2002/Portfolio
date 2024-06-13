@@ -1063,19 +1063,24 @@ img {
 }
 
 
-@media screen and (min-width: 401px) {
+@media screen and (max-width: 601px) {
 
-
+  .services__container.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Optional: Align items in the center */
+  }
 
   .services__content {
     padding-top: 6rem;
     grid-template-columns: max-content;
     justify-content: center;
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
 
   .services__title {
-    padding-right: 2rem;
+    padding-right: 4rem;
   }
 
 }
@@ -1350,6 +1355,6 @@ img {
   }
 
   .services__title {
-    margin-left: 1.75rem;
+    margin-left: 0.25rem;
   }
 }
