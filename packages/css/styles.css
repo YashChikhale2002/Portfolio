@@ -1076,7 +1076,11 @@ img {
     padding-top: 6rem;
     grid-template-columns: max-content;
     justify-content: center;
-    padding-left: 5rem;
+    padding-left: 4.5rem;
+  }
+
+  .services__image{
+    margin-left: 0.25rem;
   }
 
   .services__title {
