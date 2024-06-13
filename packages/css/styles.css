@@ -1029,10 +1029,10 @@ img {
   }
 
   .services__content {
-padding: 6rem;
+    padding: 6rem;
   }
 
-  .services__title{
+  .services__title {
     text-align: center;
   }
 
@@ -1061,6 +1061,13 @@ padding: 6rem;
   }
 }
 
+
+@media screen and (min-width: 401px) {
+  .services__content {
+    padding-top: 6rem;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -1084,9 +1091,10 @@ padding: 6rem;
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .services__content{
-   padding-top: 6rem;
-   padding-left: 2rem;
+
+  .services__content {
+    padding-top: 6rem;
+    padding-left: 2rem;
   }
 
   .qualification__sections {
