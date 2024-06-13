@@ -1062,7 +1062,6 @@ img {
   }
 }
 
-
 @media screen and (max-width: 601px) {
 
   .services__container.grid {
@@ -1076,15 +1075,12 @@ img {
     padding-top: 6rem;
     grid-template-columns: max-content;
     justify-content: center;
-    padding-left: 4.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
   }
 
-  .services__image{
-    margin-left: 0.25rem;
-  }
-
-  .services__title {
-    padding-right: 4rem;
+  .services__image {
+    margin-left: 6vw;
   }
 
 }
@@ -1117,6 +1113,7 @@ img {
     padding-top: 6rem;
     padding-left: 2rem;
   }
+
 
   .qualification__sections {
     display: grid;
