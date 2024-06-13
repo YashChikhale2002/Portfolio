@@ -1064,22 +1064,38 @@ img {
 
 
 @media screen and (min-width: 401px) {
-  
   .services__container {
-    grid-template-columns: max-content;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    /* Align items horizontally center */
+    overflow: hidden;
   }
 
   .services__content {
-    padding: 6rem;
+    text-align: center;
+    /* Center align content within each item */
+    padding: 2rem;
+    /* Adjust padding as necessary */
   }
 
   .services__title {
-    text-align: center;
+    margin-top: 1rem;
+    /* Add spacing between title and image */
   }
 
-  
-  .services__content {
+  .services__image {
+    max-width: 100%;
+    /* Ensure images do not exceed their container */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+
+  /* .services__content {
     padding-top: 6rem;
     grid-template-columns: max-content;
     justify-content: center;
@@ -1088,7 +1104,7 @@ img {
 
   .services__title {
     padding-right: 2rem;
-  }
+  } */
 
 }
 
